@@ -1,0 +1,108 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+}
+
+body {
+    padding: 0 20px;
+    margin: 0;
+    font-family: 'Lato', Helmet, Freesans, sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    color: #333;
+}
+b {
+    position: absolute;
+    left: -999em;
+    width: 100em;
+}
+a {
+    color: #564f72;
+}
+
+#body {
+    max-width: 560px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body > header {
+    margin: 0 -20px;
+    padding: 2em 0 0;
+    background: #6b628d;
+}
+body > header p {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body > header p img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    outline: 2px solid black;
+}
+body > header nav {
+    background: black;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+body > header nav ul {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+body > header nav ul li {
+    display: inline-block;
+    padding: 0;
+    color: #6b628d;
+}
+body > header nav ul li:after {
+    content: ' • ';
+    display: inline-block;
+    padding: 0 10px;
+}
+body > header nav ul li:last-child:after {
+    display: none;
+}
+body > header a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    max-width: 560px;
+    margin: 60px auto;
+    color: #6b628d;
+}
+
+article header h1 {
+    font-size: 48px;
+    line-height: 1;
+    margin: 24px 0 0;
+    color: #6b628d;
+}
+article header time {
+    display: block;
+    margin-bottom: 3em;
+    color: #777;
+}
+article figure {
+    margin: 20px -20px 40px -20px;
+}
+article figure img {
+    display: block;
+}
+article figure figcaption {
+    color: #666;
+    font-size: 14px;
+    padding-left: 20px;
+}
+article h2 {
+    font-size: 28px;
+    margin: 36px 0 0;
+}
+article p {
+    margin: 0 0 1em 0;
+}

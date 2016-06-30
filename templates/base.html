@@ -1,0 +1,32 @@
+<html lang='en-GB'>
+<head>
+  <meta charset='UTF-8'>
+  <title>{{title}}</title>
+  <link rel='stylesheet' href='/site/whiteboardy.css'>
+  <link href='//fonts.googleapis.com/css?family=Lato:400,400italic,700&amp;subset=latin' rel='stylesheet' type='text/css'>
+</head>
+<body class='{% block body_class %}{% endblock %}'>
+
+<header>
+  <p>
+    <a href='/'>
+      <img src='/site/whiteboardy.jpg' alt=''>
+      <b>Whiteboardy</b>
+    </a>
+  </p>
+
+  <nav>
+  </nav>
+</header>
+
+
+<div id='body'>
+  {% block body %}{% endblock %}
+</div>
+
+<footer>
+  <p>Copyright &copy; 2016 Mark Norman Francis.</p>
+</footer>
+
+</body>
+</html>
